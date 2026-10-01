@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "name": "Баскетбол знаний",
+    "autosave": true,
+    "quality": "balanced"
+  },
+  "language": "ru",
+  "audio": {
+    "volume": 60,
+    "effects": true,
+    "music": false,
+    "assets": {}
+  },
+  "scene": {
+    "color": "#183e48",
+    "floor": "#ca8956",
+    "lines": true,
+    "dimming": 0,
+    "background": "",
+    "objects": [
+      {
+        "id": "player",
+        "name": "Герой",
+        "kind": "player",
+        "x": 105,
+        "y": 305,
+        "w": 155,
+        "h": 290,
+        "z": 2,
+        "rotation": 0,
+        "opacity": 1,
+        "locked": false,
+        "hidden": false,
+        "flip": false,
+        "asset": ""
+      },
+      {
+        "id": "hoop",
+        "name": "Кольцо",
+        "kind": "hoop",
+        "x": 948,
+        "y": 150,
+        "w": 180,
+        "h": 320,
+        "z": 3,
+        "rotation": 0,
+        "opacity": 1,
+        "locked": false,
+        "hidden": false,
+        "flip": false,
+        "asset": ""
+      },
+      {
+        "id": "ball",
+        "name": "Мяч",
+        "kind": "ball",
+        "x": 245,
+        "y": 390,
+        "w": 55,
+        "h": 55,
+        "z": 4,
+        "rotation": 0,
+        "opacity": 1,
+        "locked": false,
+        "hidden": false,
+        "flip": false,
+        "asset": ""
+      },
+      {
+        "id": "hud",
+        "name": "Жизни и счёт",
+        "kind": "hud",
+        "x": 32,
+        "y": 24,
+        "w": 1136,
+        "h": 55,
+        "z": 5,
+        "rotation": 0,
+        "opacity": 1,
+        "locked": false,
+        "hidden": false,
+        "flip": false,
+        "asset": ""
+      }
+    ],
+    "floorOpacity": 1
+  },
+  "titleScreen": {
+    "enabled": true,
+    "title": "Баскетбол знаний",
+    "subtitle": "Каждый ответ — бросок к победе",
+    "rules": "Отвечай на задания, забрасывай мяч и береги жизни.",
+    "button": "",
+    "background": "",
+    "color": "#123b45",
+    "textColor": "#ffffff",
+    "fontFamily": "Georgia",
+    "titleSize": 62,
+    "subtitleSize": 27
+  },
+  "player": {
+    "name": "Игрок",
+    "idle": "",
+    "success": "",
+    "miss": ""
+  },
+  "hoop": {
+    "targetX": 0.37,
+    "targetY": 0.36
+  },
+  "ball": {
+    "speed": 1,
+    "arc": 210
+  },
+  "questions": [
+    {
+      "id": "id-jfr5xhnmc",
+      "type": "single",
+      "prompt": "Сколько игроков одной команды находится на баскетбольной площадке?",
+      "options": [
+        {
+          "id": "id-z31nlgbzi",
+          "text": "5",
+          "correct": true,
+          "asset": ""
+        },
+        {
+          "id": "id-8o3y2x5ia",
+          "text": "6",
+          "correct": false,
+          "asset": ""
+        },
+        {
+          "id": "id-w2ae2ygz5",
+          "text": "7",
+          "correct": false,
+          "asset": ""
+        }
+      ],
+      "answers": [
+        "ответ"
+      ],
+      "caseSensitive": false,
+      "tolerance": 0,
+      "shuffle": true,
+      "points": 10,
+      "explanation": "",
+      "oralMode": "self",
+      "asset": ""
+    },
+    {
+      "id": "id-vinelfhtd",
+      "type": "multiple",
+      "prompt": "Выберите чётные числа",
+      "options": [
+        {
+          "id": "id-vlmm2y7m2",
+          "text": "2",
+          "correct": true,
+          "asset": ""
+        },
+        {
+          "id": "id-f2qrtt1br",
+          "text": "4",
+          "correct": true,
+          "asset": ""
+        },
+        {
+          "id": "id-pah4iftxh",
+          "text": "5",
+          "correct": false,
+          "asset": ""
+        }
+      ],
+      "answers": [
+        "ответ"
+      ],
+      "caseSensitive": false,
+      "tolerance": 0,
+      "shuffle": true,
+      "points": 10,
+      "explanation": "",
+      "oralMode": "self",
+      "asset": ""
+    },
+    {
+      "id": "id-advzu53qd",
+      "type": "text",
+      "prompt": "Сколько будет 7 × 8?",
+      "options": [
+        {
+          "id": "id-1yybaz4wv",
+          "text": "Первый ответ",
+          "correct": true,
+          "asset": ""
+        },
+        {
+          "id": "id-hfy1xlcfk",
+          "text": "Второй ответ",
+          "correct": false,
+          "asset": ""
+        },
+        {
+          "id": "id-hgv38lliq",
+          "text": "Третий ответ",
+          "correct": false,
+          "asset": ""
+        }
+      ],
+      "answers": [
+        "56"
+      ],
+      "caseSensitive": false,
+      "tolerance": 0,
+      "shuffle": true,
+      "points": 10,
+      "explanation": "",
+      "oralMode": "self",
+      "asset": ""
+    },
+    {
+      "id": "id-bbw1or83t",
+      "type": "oral",
+      "prompt": "Объясни, почему важно разминаться перед игрой.",
+      "options": [
+        {
+          "id": "id-ktb412wh1",
+          "text": "Первый ответ",
+          "correct": true,
+          "asset": ""
+        },
+        {
+          "id": "id-e6i3cad8n",
+          "text": "Второй ответ",
+          "correct": false,
+          "asset": ""
+        },
+        {
+          "id": "id-lgx8hh43g",
+          "text": "Третий ответ",
+          "correct": false,
+          "asset": ""
+        }
+      ],
+      "answers": [
+        "ответ"
+      ],
+      "caseSensitive": false,
+      "tolerance": 0,
+      "shuffle": true,
+      "points": 10,
+      "explanation": "Разминка помогает подготовиться к физической нагрузке.",
+      "oralMode": "self",
+      "asset": ""
+    },
+    {
+      "id": "id-t4a8chor0",
+      "type": "order",
+      "prompt": "Расположи числа по возрастанию",
+      "options": [
+        {
+          "id": "id-pdrvo1p65",
+          "text": "2",
+          "correct": true,
+          "asset": ""
+        },
+        {
+          "id": "id-shjk062u4",
+          "text": "5",
+          "correct": false,
+          "asset": ""
+        },
+        {
+          "id": "id-douxungir",
+          "text": "9",
+          "correct": false,
+          "asset": ""
+        }
+      ],
+      "answers": [
+        "ответ"
+      ],
+      "caseSensitive": false,
+      "tolerance": 0,
+      "shuffle": true,
+      "points": 10,
+      "explanation": "",
+      "oralMode": "self",
+      "asset": ""
+    }
+  ],
+  "questionStyle": {
+    "width": 520,
+    "x": 355,
+    "y": 175,
+    "background": "#fffaf2",
+    "color": "#263c40",
+    "accent": "#287e80",
+    "radius": 24,
+    "fontSize": 24,
+    "fontFamily": "Arial",
+    "border": 2,
+    "shadow": true
+  },
+  "scoring": {
+    "lives": 3,
+    "lifeIcon": "♥",
+    "lifeAsset": "",
+    "random": false,
+    "timer": false,
+    "timerMode": "question",
+    "seconds": 60,
+    "timeout": "life",
+    "bonusEvery": 3,
+    "bonusPoints": 10
+  },
+  "winScreen": {
+    "title": "",
+    "subtitle": "Ты справился с заданиями. Так держать!",
+    "background": "",
+    "color": "#123b45"
+  },
+  "loseScreen": {
+    "title": "",
+    "subtitle": "Каждая попытка помогает учиться. Попробуй снова!",
+    "background": "",
+    "color": "#123b45"
+  },
+  "accessibility": {
+    "reducedMotion": false,
+    "contrast": false,
+    "textScale": 1
+  },
+  "assets": {},
+  "exportSettings": {
+    "light": false
+  }
+}
